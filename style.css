@@ -1,0 +1,236 @@
+
+
+
+html{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+
+    background: url(imgs/1.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navigation{
+    height: 10%;
+    padding-top: 2%;
+}
+.navigation ul{
+    text-align: right;
+    
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.navigation ul li{
+    display: inline;
+    text-align: right;
+    width: 20%;
+    
+    margin-right: 2%;
+}
+
+.navigation ul li a{
+    border-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 170%;
+    
+    
+}
+
+.navigation ul li a:hover{
+    font-size: 173%;
+     color: #ffffff;
+    -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+    
+}
+
+.container2{
+    height: 100%;
+    display: inline-flex;
+    width: 100%;
+    background-color: #322d33;
+
+}
+
+#levo{
+    width: 50%;
+    height: 100%;
+     margin: 0%;
+    padding: 0%;
+}
+
+#levo img{
+    width: 75%;
+    margin: 5%;
+    padding: 0%;
+    border-radius: 20px;
+    margin-bottom: 0%;
+}
+
+#desno{
+    width: 50%;
+    height: 100%;
+     margin: 0%;
+    padding: 0%;
+}
+
+#info-cont{
+    width: 80%;
+    margin: 20% auto;
+    text-align: center;
+}
+
+#info-cont h1 {
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+
+#info-cont h2{
+     color: #ffffff;
+     margin: 0%;
+    padding: 0%;
+}
+
+#info-cont p{
+      color: #ffffff;
+    margin-top: 5%
+}
+
+.container3{
+    height: 100%;
+    margin: 0%;
+    padding: 0%:
+}
+
+.horiz{
+    margin: 0%;
+    padding: 0%;
+    height: 33.3%;
+    display: inline-flex;
+}
+.horiz img{
+    width: 33.3333333333%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.horiz2{
+    margin: 0%;
+    padding: 0%;
+    height: 33.3%;
+    display: inline-flex;  
+}
+.horiz2 img{
+    width: 20%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.horiz2 img, .horiz img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+    filter: gray;
+    -webkit-transition: all .6s ease;
+}
+
+.horiz2 img:hover, .horiz img:hover{
+    
+     filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); 
+    filter: none;
+    -webkit-transition: all .6s ease;
+    
+}
+
+.container4{
+    height: 60%;
+    background: url(imgs/mapa.PNG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#kontakt{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.5);
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+form{
+    height: 90%;
+    margin: 0%;
+    padding: 0%;
+}
+form h1{
+    margin: 0%;
+    padding-top: 3%;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+}
+input{
+    width: 25%;
+    margin-top: 1%;
+    text-align: center;
+}
+textarea{
+    width: 25%;
+    margin-top: 1%;
+     text-align: center;
+    height: 30%
+}
+
+footer{
+    height: 10%;
+    background-color: rgba(34, 34, 34, 0.7);
+    overflow: hidden;
+}
+
+#social img{
+    width: 3%;
+    margin: 0%;
+    margin-left: 1%;
+    padding: 0%;
+      filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+    filter: gray;
+    -webkit-transition: all .6s ease;
+}
+
+#social img:hover{
+      filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); 
+    filter: none;
+    -webkit-transition: all .6s ease;
+    width: 3.2%;
+}
